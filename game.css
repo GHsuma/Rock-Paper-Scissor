@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: auto;
+    position:relative;
+}
+.nav{
+    background-color:rgb(13, 13, 89);
+width: 100%;
+}
+h1{
+    color:chartreuse;
+   text-align: center;
+   font-size: 50px;
+   margin-top: 0px;
+
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ h2{
+    color:teal;   
+    font-size: 35px;
+    text-align:center;
+}
+.foot h2{
+    color:limegreen;
+    font-size:30px ;
+    text-align: center;
+}
+.game-box{
+    width:fit-content;
+
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.content{
+    margin-left:34%;
+
+}
+.box{
+    /* height: 60px;
+    width:60px; */
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+img {
+    height:130px;
+    width:130px;
+    transform: rotate(-90deg);
+}
+.foot{
+ margin-left: 100px;
+} 
+.score {
+    display: flex;
+   width:180px;
+    justify-content: space-around;
+
+}
+.score p{
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: 500;
+
+}
+.players{
+    width:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.players p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.user{
+    opacity: 1;
+    box-shadow:2px;
+}
