@@ -1,5 +1,3 @@
-# Rock-Paper-Scissor
-
 # Rock-Paper-Scissors game based web application
 # A text will displayed each time showing user & computer choice 
   
@@ -8,3 +6,4 @@
 
  # output 
   ![alt text](<Screenshot 2024-08-23 202000.png>)
+  ![alt text](<Screenshot 2024-08-23 201916.png>)
